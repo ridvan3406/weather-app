@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
+  padding: 75px;
 }
 
 .app.warm {

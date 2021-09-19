@@ -75,7 +75,7 @@ function App() {
               <div className="date">{dateBuilder(new Date())}</div>
             </div>
             <div className="weather-box">
-              <div className="temp">{(Math.round((weather.main.temp-32)*0.55))}ºC</div>
+              <div className="temp">{Math.round(weather.main.temp)}ºF</div>
               <div className="weather">{weather.weather[0].description}</div>
             </div>
           </div>
